@@ -27,6 +27,11 @@ public class Main {
         };
 
 
+        /**
+         * This foreach will loop all the directoryFileNames
+         * and check each name if they pass the validation.
+         */
+
         for (String fileName : directoryFileNames) {
             fileNameValidator.validateFileName(fileName);
         }
